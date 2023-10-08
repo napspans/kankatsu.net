@@ -21,6 +21,12 @@ kankatsu.netのデータベース作成用リポジトリ
     | ---- | ---- |
     | 1行目 | 市町村名 |
     | 2行目以降 | 市町村名 |
+
+- ```diffarence_combined_codes.py```
+  - コンビナイドコードリスト同士の差分をとる
+    - ``input/diff_minuend.txt`` 差分されるリスト
+    - ``input/diff_subtrahend.txt`` 差分するリスト
+    - ``output/diff_result.txt`` 差分リスト
 # ファイル除外(ignore)
 データが100MBを超えるため下記ファイルをコミット除外する。
 - ```mt_town_all_withB.csv```
